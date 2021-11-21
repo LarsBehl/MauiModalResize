@@ -5,8 +5,11 @@
              Title="ModalPage"
              BackgroundColor="White">
     <VerticalStackLayout Padding="48">
+        <Label Text="Add some labels below:"
+               FontSize="Large"
+               HorizontalOptions="Center"/>
         <VerticalStackLayout x:Name="LabelList">
-            
+            <Label Text="Hello World" />
         </VerticalStackLayout>
 
         <Button Text="Add Label"
